@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 0 1px rgb(53 72 91 / 7%), 0 2px 2px rgb(0 0 0 / 1%),
+    0 4px 4px rgb(0 0 0 / 2%), 0 10px 8px rgb(0 0 0 / 3%),
+    0 15px 15px rgb(0 0 0 / 3%), 0 30px 30px rgb(0 0 0 / 4%),
+    0 70px 65px rgb(0 0 0 / 5%);
+}
+
+.container:hover {
+  box-shadow: 0 0 0 1px rgb(53 72 91 / 4%), 0 2px 2px rgb(0 0 0 / 0%),
+    0 4px 4px rgb(0 0 0 / 1%), 0 10px 8px rgb(0 0 0 / 2%),
+    0 15px 15px rgb(0 0 0 / 2%), 0 30px 30px rgb(0 0 0 / 2%),
+    0 70px 65px rgb(0 0 0 / 3%);
+}
